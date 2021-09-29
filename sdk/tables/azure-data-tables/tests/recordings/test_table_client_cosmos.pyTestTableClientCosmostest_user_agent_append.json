@@ -1,0 +1,33 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "User-Agent": "customer_user_agent",
+        "x-ms-client-request-id": "328317ab-2161-11ec-b42b-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:09:49 GMT",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "799de320-6bb6-4b72-97ab-1dc60721e5e5"
+      },
+      "ResponseBody": {
+        "value": [],
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/$metadata#Tables"
+      }
+    }
+  ],
+  "Variables": {}
+}

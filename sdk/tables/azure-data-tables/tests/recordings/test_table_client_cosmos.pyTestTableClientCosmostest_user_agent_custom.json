@@ -1,0 +1,61 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "User-Agent": "TestApp/v1.0 azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "326eeab3-2161-11ec-900b-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:09:49 GMT",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "11c50b00-ded2-4aab-b44b-ac19bb1f5cab"
+      },
+      "ResponseBody": {
+        "value": [],
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/$metadata#Tables"
+      }
+    },
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "User-Agent": "TestApp/v2.0 TestApp/v1.0 azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "3271be3e-2161-11ec-9dd6-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:09:48 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:09:49 GMT",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "5080af9d-2ef2-475d-a64d-7fa7b3e505cd"
+      },
+      "ResponseBody": {
+        "value": [],
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/$metadata#Tables"
+      }
+    }
+  ],
+  "Variables": {}
+}
