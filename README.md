@@ -8,6 +8,8 @@ This repository currently contains:
 
 - Test Recordings
 
+This list will expand as additional requirements are clarified.
+
 ## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
