@@ -1,0 +1,159 @@
+{
+  "Entries": [
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "32",
+        "Content-Type": "application/json;odata=nometadata",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:37:11 GMT",
+        "User-Agent": "azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "05b07d15-2165-11ec-84e6-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:37:11 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": "{\u0022TableName\u0022: \u0022uttableb5342e0d\u0022}",
+      "StatusCode": 201,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "ETag": "W/\u0022datetime\u00272021-09-29T20%3A37%3A12.4130824Z\u0027\u0022",
+        "Location": "https://scbeddtablesprim.table.cosmos.azure.com/Tables(\u0027uttableb5342e0d\u0027)",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "705efa6c-c0fa-4d7a-b6f4-1c755eaea7b6"
+      },
+      "ResponseBody": {
+        "TableName": "uttableb5342e0d",
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/$metadata#Tables/@Element"
+      }
+    },
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/uttableb5342e0d",
+      "RequestMethod": "POST",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "130",
+        "Content-Type": "application/json;odata=nometadata",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "User-Agent": "azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "063afe9c-2165-11ec-bdd7-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": "{\u0022PartitionKey\u0022: \u0022pkb5342e0d\u0022, \u0022PartitionKey@odata.type\u0022: \u0022Edm.String\u0022, \u0022RowKey\u0022: \u0022rkb5342e0d\u0022, \u0022RowKey@odata.type\u0022: \u0022Edm.String\u0022}",
+      "StatusCode": 201,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "ETag": "W/\u0022datetime\u00272021-09-29T20%3A37%3A13.0459144Z\u0027\u0022",
+        "Location": "https://scbeddtablesprim.table.cosmos.azure.com/uttableb5342e0d(PartitionKey=\u0027pkb5342e0d\u0027,RowKey=\u0027rkb5342e0d\u0027)",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "35447811-0efa-4e08-8503-5b75644e8db7"
+      },
+      "ResponseBody": {
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/uttableb5342e0d/$metadata#uttableb5342e0d/@Element",
+        "odata.etag": "W/\u0022datetime\u00272021-09-29T20%3A37%3A13.0459144Z\u0027\u0022",
+        "PartitionKey": "pkb5342e0d",
+        "RowKey": "rkb5342e0d",
+        "Timestamp": "2021-09-29T20:37:13.0459144Z"
+      }
+    },
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/uttableb5342e0d(PartitionKey=\u0027pkb5342e0d\u0027,RowKey=\u0027rkb5342e0d\u0027)",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "User-Agent": "azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "0643d69d-2165-11ec-885d-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "ETag": "W/\u0022datetime\u00272021-09-29T20%3A37%3A13.0459144Z\u0027\u0022",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "14bfff0e-8135-4062-b999-b3880117d9dc"
+      },
+      "ResponseBody": {
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/uttableb5342e0d/$metadata#uttableb5342e0d/@Element",
+        "odata.etag": "W/\u0022datetime\u00272021-09-29T20%3A37%3A13.0459144Z\u0027\u0022",
+        "PartitionKey": "pkb5342e0d",
+        "RowKey": "rkb5342e0d",
+        "Timestamp": "2021-09-29T20:37:13.0459144Z"
+      }
+    },
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables",
+      "RequestMethod": "GET",
+      "RequestHeaders": {
+        "Accept": "application/json;odata=minimalmetadata",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "DataServiceVersion": "3.0",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "User-Agent": "azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "064a919d-2165-11ec-996e-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 200,
+      "ResponseHeaders": {
+        "Content-Type": "application/json; odata=minimalmetadata",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "Transfer-Encoding": "chunked",
+        "x-ms-request-id": "244cc570-7f5b-4ab3-93dc-9473ce9c7ccc"
+      },
+      "ResponseBody": {
+        "value": [
+          {
+            "TableName": "uttableb5342e0d"
+          }
+        ],
+        "odata.metadata": "https://scbeddtablesprim.table.cosmos.azure.com/$metadata#Tables"
+      }
+    },
+    {
+      "RequestUri": "https://scbeddtablesprim.table.cosmos.azure.com/Tables(\u0027uttableb5342e0d\u0027)",
+      "RequestMethod": "DELETE",
+      "RequestHeaders": {
+        "Accept": "application/json",
+        "Accept-Encoding": "gzip, deflate",
+        "Authorization": "Sanitized",
+        "Connection": "keep-alive",
+        "Content-Length": "0",
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "User-Agent": "azsdk-python-data-tables/12.1.1 Python/3.8.5 (Windows-10-10.0.19041-SP0)",
+        "x-ms-client-request-id": "064e7be7-2165-11ec-86b6-5cf370a43880",
+        "x-ms-date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "x-ms-version": "2019-02-02"
+      },
+      "RequestBody": null,
+      "StatusCode": 204,
+      "ResponseHeaders": {
+        "Date": "Wed, 29 Sep 2021 20:37:12 GMT",
+        "x-ms-request-id": "0873d578-5117-4a36-bae0-c5627c727a2b"
+      },
+      "ResponseBody": null
+    }
+  ],
+  "Variables": {}
+}
